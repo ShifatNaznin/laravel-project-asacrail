@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+img {
+    border-radius: 0px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* body {} */
+
+.card_header_title h3 {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 7px;
+}
+
+/* .card_header_btn {
+    background-color: yellow;
+} */
+
+.card_header_btn a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #ffa800;
+    color: white;
+    box-shadow: 1px 1px 5px 1px rgba(255, 217, 0, 0.4);
+}
+
+.card_header_btn a:hover {
+    font-weight: 700;
+    background-color: #cf8b04;
+    color: white;
+}
+
+table.custom_table td {
+    color: rgb(100, 108, 121);
+    vertical-align: middle;
+    border-top: 1px solid rgba(0, 0, 0, 0.03);
+    padding: 0.6rem;
+    /* word-wrap: break-word; */
+    /* text-align: center; */
+
+}
+
+table.custom_table tbody tr:hover td {
+    background-color: rgb(194, 194, 194);
+    color: white;
+    border: 1px solid white;
+    /* box-shadow: rgba(58, 78, 95, 0.2) 0 10px 16px, rgba(58, 78, 95, 0.05) 0 -5px 16px; */
+}
+table.custom_table tbody tr:hover td strong {
+
+    color: white;
+   
+    /* box-shadow: rgba(58, 78, 95, 0.2) 0 10px 16px, rgba(58, 78, 95, 0.05) 0 -5px 16px; */
+}
+
+table.custom_table tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+table.custom_table tr th {
+    background-color: #ddd;
+}
+
+/* .custom_form {} */
+
+.custom_form label {
+    color: #000;
+    text-align: right;
+    font-weight: bold;
+    margin-right: -15px;
+    margin-top: -3px;
+}
+
+.custom_form .form-control {
+    border: 1px solid #ccc;
+}
+
+span.req_star {
+    color: red;
+}
+
+.has-error span.invalid-feedback {
+    display: block;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+table.custom_table_btn .btn-color-ceate .view-btn {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+table.custom_table_btn .btn-color-ceate .view-btn:hover {
+    background-color: #117585;
+    border-color: #117585;
+}
+
+table.custom_table_btn .btn-color-ceate .edit-btn {
+    background-color: #ffa800;
+    border-color: #ffa800;
+}
+
+table.custom_table_btn .btn-color-ceate .edit-btn:hover {
+    background-color: #c98705;
+    border-color: #c98705;
+}
+
+table.custom_table_btn .btn-color-ceate .delete-btn {
+    background-color: #ff3f3f;
+    border-color: #ff3f3f;
+}
+
+table.custom_table_btn .btn-color-ceate .delete-btn:hover {
+    background-color: #b62727;
+    border-color: #b62727;
+}
+
+/* table.custom_view_table {} */
+
+table.custom_view_table td {
+    color: #626262;
+}
+
+table.custom_view_table tbody tr:nth-of-type(2n+1) {
+    background-color: rgb(241, 241, 241);
+}
+
+table.custom_view_table tr:nth-child(2n) {
+    background-color: #ffffff;
+}
+
+table.custom_view_table tr td:first-child {
+    width: 28%;
+    text-align: left;
+    font-weight: bold;
+}
+
+table.custom_view_table tr td:last-child {
+    width: 70%;
+    text-align: left;
+}
+
+.photo_sm {
+    height: 40px;
+    max-width: 60px;
+}
+
+.photo_md {
+    height: 100px;
+    max-width: 150px;
+}
+
+.header-part {
+    background: #132035;
+}
+
+.modal .modal-header-color {
+    background-color: #132035;
+    border-color: #132035;
+}
+
+.modal .modal-footer .modal-delete-btn {
+    background-color: #e01a1a;
+    border-color: #e01a1a;
+}
+
+.modal .modal-footer .modal-close-btn {
+    background-color: #159232;
+    border-color: #159232;
+}
+
+.scroll-side {
+
+    /* background: #e9e9f0; */
+    height: 410px;
+    overflow-y: scroll;
+    /* width: 2px; */
+    /* padding-top: 10px; */
+    /* scrollbar-color: #3f4e66 #0d1625; */
+}
+.time-text{
+    width: 100px;
+}

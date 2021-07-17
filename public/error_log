@@ -1,0 +1,1 @@
+[27-Jul-2020 18:27:35 Asia/Dhaka] PHP Fatal error:  Cannot use App\Career as Career because the name is already in use in /home2/asacrail/public_html/app/Http/Controllers/WebsiteNewController.php on line 15
